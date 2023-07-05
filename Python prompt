@@ -1,0 +1,11 @@
+#Code to issue key to a user who arrives on time.
+
+arrival_time = 4 #the time every user must arrive
+
+My_time =input("pleaee kindly enter your time of arrival:")
+
+user_arrival_time = int(My_time)
+if user_arrival_time == arrival_time: 
+    print("pleaee have key")
+else: 
+    print("We are sorry but there is No key for you because you arrived late ")
